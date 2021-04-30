@@ -2,11 +2,11 @@
 
 In order to get started you should have an AWS account, and a pair of ssh access keys.
 
-Requirements:
+### Requirements:
 - ```terraform```
 - a file with your ssh credentials for aws called ddc.pem at ```~/.ssh/ddc.pem``` 
 
-Instructions:
+## Instructions:
 
 clone this repo, cd to this repo and run
 ```
@@ -30,3 +30,7 @@ bash test.sh 54.23.65.123
 
 
 You can then check the s3 created bucket on your AWS account for those requests
+
+## Additional Info
+
+The python flask server can be found here: https://github.com/nunocalaim/Setup-Flask-Machine
