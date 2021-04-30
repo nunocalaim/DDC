@@ -1,0 +1,16 @@
+
+terraform/prod-nuno.tfvars
+
+terraform/.terraform.lock.hcl
+
+terraform/.terraform.tfstate.lock.info
+
+terraform/.terraform/
+
+terraform/.DS_Store
+
+terraform/terraform.tfstate
+
+terraform/terraform.tfstate.backup
+
+.DS_Store
