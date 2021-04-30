@@ -3,7 +3,10 @@
 In order to get started you should have an AWS account, and a pair of ssh access keys.
 
 Requirements:
-terraform
+- ```terraform```
+- a file with your ssh credentials for aws called ddc.pem at ```~/.ssh/ddc.pem``` 
+
+Instructions:
 
 clone this repo, cd to this repo and run
 ```
