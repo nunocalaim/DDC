@@ -10,7 +10,8 @@ Instructions:
 
 clone this repo, cd to this repo and run
 ```
-bash terraform/deploy.sh
+cd terraform
+bash deploy.sh
 ```
 It will ask you for the ssh keys or you can add them on the file prod.tfvars
 
