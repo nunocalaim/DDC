@@ -10,7 +10,7 @@ In order to get started you should have an AWS account, and a pair of ssh access
 
 clone this repo, cd to this repo and run
 ```
-cd terraform
+cd DDC/terraform
 bash deploy.sh
 ```
 It will ask you for the ssh keys or you can add them on the file prod.tfvars

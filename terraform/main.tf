@@ -181,7 +181,7 @@ resource "aws_instance" "ddc_ec2_flask" {
       "echo aws_access_key_id = ${var.aws_access_key_id} >> .aws/credentials",
       "echo aws_secret_access_key = ${var.aws_secret_access_key} >> .aws/credentials",
       "git clone ${var.git_server}",
-      # "bash ~/Setup-Flask-Machine/setup.sh"
+      "bash ~/Setup-Flask-Machine/setup.sh"
       # "sudo add-apt-repository universe",
       # "sudo apt-get -y update",
       # "sudo apt -y install python3-pip",
