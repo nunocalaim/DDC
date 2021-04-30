@@ -180,14 +180,15 @@ resource "aws_instance" "ddc_ec2_flask" {
       "echo [default] >> .aws/credentials",
       "echo aws_access_key_id = ${var.aws_access_key_id} >> .aws/credentials",
       "echo aws_secret_access_key = ${var.aws_secret_access_key} >> .aws/credentials",
-      "sudo add-apt-repository universe",
-      "sudo apt-get -y update",
-      "sudo apt -y install python3-pip",
       "git clone ${var.git_server}",
-      "cd Setup-Flask-Machine/python_flask",
-      "pip3 install -r requirements.txt",
-      "pip3 install connexion[swagger-ui]",
-      "nohup python3 -m tracking_server &"
+      "bash ~/Setup-Flask-Machine/setup.sh"
+      # "sudo add-apt-repository universe",
+      # "sudo apt-get -y update",
+      # "sudo apt -y install python3-pip",
+      # "cd Setup-Flask-Machine/python_flask",
+      # "pip3 install -r requirements.txt",
+      # "pip3 install connexion[swagger-ui]",
+      # "nohup python3 -m tracking_server &"
     ]
   }
 
